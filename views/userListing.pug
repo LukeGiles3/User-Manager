@@ -1,0 +1,23 @@
+html
+    head
+        title User Listing
+    body
+        h1 List of Users
+        //- ul
+        //-     each user in usersList
+        //-         li= user.username + ': ' + user.email
+        //- include date.pug
+       table(style='width:100%', border='1')
+            tr
+                th Username
+                th Name
+                th Email
+                th Age
+            each newuser in user
+                tr
+                    td= newuser.username
+                    td= newuser.name
+                    td= newuser.email
+                    td= newuser.age
+                
+                    
