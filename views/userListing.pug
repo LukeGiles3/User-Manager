@@ -3,21 +3,23 @@ html
         title User Listing
     body
         h1 List of Users
-        //- ul
-        //-     each user in usersList
-        //-         li= user.username + ': ' + user.email
-        //- include date.pug
-       table(style='width:100%', border='1')
+        table(style='width:50%', border='1')
             tr
                 th Username
                 th Name
                 th Email
                 th Age
-            each newuser in user
+            each newuser in whatever
                 tr
                     td= newuser.username
-                    td= newuser.name
+                    td= newuser.name 
                     td= newuser.email
-                    td= newuser.age
+                    td= newuser.age 
+                    td
+                        a(href=`/editUser/${newuser.id}`) Edit
+                    td
+                        a(href=`/deleteUser/${newuser.id}`) Delete
+        div
+            a(href="/") Add a New User
                 
                     

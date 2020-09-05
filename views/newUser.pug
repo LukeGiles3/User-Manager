@@ -1,7 +1,9 @@
 html
     head
     body
-        form(id="myForm", method='POST', action='/userListing')
+        div
+            h1 Add a New User
+        form(id="myForm", method='POST', action='/createNewUser')
             div
                 label(for='username') Username
                 input(id='username', name='username')
@@ -16,3 +18,5 @@ html
                 input(id='age', name='age', type='number')
             div
                 input(type='submit', value='Add User')
+            div
+                a(href="/userListing") See all the Users

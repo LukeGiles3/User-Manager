@@ -1,0 +1,25 @@
+{
+    "fullUserList": [
+        {
+            "name": "Luke Giles",
+            "username": "lgiles",
+            "email": "luke.giles333@gmail.com",
+            "age": "4",
+            "id": 254
+        },
+        {
+            "name": "Luke E Giles",
+            "username": "lgiles",
+            "email": "luke.giles333@gmail.com",
+            "age": "21",
+            "id": 255
+        },
+        {
+            "name": "luke",
+            "username": "LukeGiles3",
+            "email": "balh@email.com",
+            "age": "32",
+            "id": 188
+        }
+    ]
+}
